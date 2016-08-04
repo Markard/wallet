@@ -1,0 +1,18 @@
+{
+    "name": "markard/wallet",
+    "minimum-stability": "stable",
+    "authors": [
+        {
+            "name": "Dmitrii Iuzhakov",
+            "email": "dmtry88@gmail.com"
+        }
+    ],
+    "require": {
+        "phalcon/devtools": "3.0.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "app\\": "app"
+        }
+    }
+}
