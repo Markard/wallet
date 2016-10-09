@@ -1,0 +1,29 @@
+<?php
+/**
+ * @var \Phalcon\Mvc\View\Engine\Php $this
+ */
+?>
+
+<h2>Sign up using this form</h2>
+
+<?= $this->tag->form("signup/register"); ?>
+<p>
+    <label for="email">E-Mail</label>
+    <?= $this->tag->textField("email") ?>
+</p>
+
+<p>
+    <label for="password">Password</label>
+    <?= $this->tag->textField("password") ?>
+</p>
+
+
+<p>
+    <?= $this->tag->submitButton("Register") ?>
+</p>
+
+<?= $this->tag->endForm() ?>
+
+<div>
+    <?= $this->tag->linkTo('/', 'Back') ?>
+</div>

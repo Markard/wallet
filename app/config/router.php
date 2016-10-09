@@ -13,7 +13,8 @@ $di->set('router', function () {
     $router = new Router(false);
     $router->setUriSource(Router::URI_SOURCE_SERVER_REQUEST_URI);
 
-    require_once 'routers/siteController.php';
+    require_once 'routers/SiteController.php';
+    require_once 'routers/SignupController.php';
 
     $router->handle();
 

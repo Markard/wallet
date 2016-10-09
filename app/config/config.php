@@ -7,8 +7,8 @@ return [
         'adapter' => 'Mysql',
         'host' => 'localhost',
         'username' => 'root',
-        'password' => '',
-        'name' => 'test',
+        'password' => 'root',
+        'name' => 'development_db',
     ],
     'application' => [
         'controllersDir' => APP_PATH . '/controllers/',
